@@ -4,4 +4,4 @@ Then, using ERB tags, say "Goodbye Joe" in an h1 tag.
 This should get rendered via a GET /goodbye route by your
 App controller in app.rb. -->
 <% name = "Joe" %>
-<h1>Goodbye <%= name %></h1>
+<h1><%="Goodbye" + name %></h1>
